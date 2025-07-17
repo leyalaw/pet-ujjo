@@ -10,6 +10,7 @@ export default defineConfig({
       "@": "/src",
       "@commonComponents": "/src/components/common",
       "@components": "/src/components",
+      "@layout": "/src/layout",
       "@svg": "/src/components/svg",
     },
   },

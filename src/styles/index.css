@@ -31,4 +31,15 @@
 
   /* стандартный отступ между буквами */
   --tracking-default: 0.05rem;
+
+  /* --------------------------------- Animate -------------------------------- */
+
+  /** анимация бегущей строки */
+  --animate-runningline: runningline linear infinite;
+
+  @keyframes runningline {
+    to {
+      transform: translateX(-100%);
+    }
+  }
 }

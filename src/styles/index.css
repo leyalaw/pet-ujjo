@@ -1,2 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @import "./base.css";
 @import "tailwindcss";
+
+@theme {
+  /* ---------------------------------- Color --------------------------------- */
+  /* белый */
+  --color-main: #ffffff;
+  /* черный */
+  --color-content--primary: #000000;
+  /* серый */
+  --color-content--secondary: #222222;
+  /* желтый */
+  --color-accent--primary: #cefd3b;
+  /* красный */
+  --color-accent--secondary-hot: #fb4b4d;
+  /* синий */
+  --color-accent--secondary-cold: #8b83f6;
+
+  /* --------------------------------- Spacing -------------------------------- */
+
+  /** единица отступа */
+  --spacing: 1rem;
+  /* стандартный отступ */
+  --spacing-default: 2rem;
+  /* максимальная ширина контейнера */
+  --spacing-container: 139.7rem;
+
+  /* -------------------------------- Tracking -------------------------------- */
+
+  /* стандартный отступ между буквами */
+  --tracking-default: 0.05rem;
+}

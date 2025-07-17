@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": "/src",
+      "@commonComponents": "/src/components/common",
       "@components": "/src/components",
       "@svg": "/src/components/svg",
     },

@@ -24,6 +24,10 @@
   --spacing: 1rem;
   /* стандартный отступ */
   --spacing-default: 2rem;
+  /* увеличенный стандартный отступ */
+  --spacing-default--big: calc(var(--spacing-default) * 2);
+  /* уменьшенный стандартный отступ */
+  --spacing-default--small: calc(var(--spacing-default) / 2);
   /* максимальная ширина контейнера */
   --spacing-container: 139.7rem;
 
